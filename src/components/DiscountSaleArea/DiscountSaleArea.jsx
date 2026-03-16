@@ -1,6 +1,6 @@
 import React from "react";
 import './DiscountSaleArea.css';
-import Discount1 from '../../assets/images/Discount1.png';
+import discount1 from '../../assets/images/discount1.png';
 import { Link } from "react-router-dom";
 
 const DiscountSaleArea = () => {
@@ -12,7 +12,7 @@ const DiscountSaleArea = () => {
                         <div className="sale-banner-thumb w-100">
                             <Link to="/">
                                 <img 
-                                    src={Discount1} 
+                                    src={discount1} 
                                     alt="Sale Banner" 
                                     className="img-fluid rounded-3"
                                 />
