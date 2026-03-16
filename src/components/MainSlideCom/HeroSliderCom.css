@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 /* ================= MAIN ================= */
 .Main-Slide {
   background: #f9f3f0;
@@ -326,7 +327,7 @@
 
 
 
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
 
 .animated-title svg {
   font-family: "Russo One", sans-serif;
