@@ -1,0 +1,58 @@
+.MessageSection{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color:#f5f8f8 ;
+}
+
+.contact-title{
+font-size:36px;
+font-weight:600;
+font-family:serif;
+}
+
+label{
+font-size:16px;
+margin-bottom:8px;
+display:block;
+}
+
+.custom-input{
+border:none;
+border-bottom:1px solid #ccc;
+border-radius:0;
+background:transparent;
+width: 100%;
+margin-bottom: 20px;
+}
+
+.custom-input:focus{
+outline: none;
+box-shadow:none;
+border-bottom:1px solid #6b3b5a;
+}
+
+.message-box{
+height:150px;
+width: 100%;
+}
+
+.send-btn{
+background:#1A3263;
+color:white;
+padding:12px 35px;
+border:none;
+border-radius:8px;
+font-weight:600;
+margin-top:10px;
+}
+
+.send-btn:hover{
+background:#dc3545;
+}
+
+
+.call-us{
+    padding-top:100px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}

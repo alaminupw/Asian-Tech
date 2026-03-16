@@ -1,0 +1,11 @@
+.Partner-container{
+    width: 100%;
+    overflow: hidden;
+    background: #FFFFFF;
+    padding: 2rem 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+

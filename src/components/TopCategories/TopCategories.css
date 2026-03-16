@@ -1,0 +1,36 @@
+
+.Categories{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Top-Categories {
+    width: 92%;
+    margin: 0 auto;        /* 👈 এটা center করবে */
+    background-color: #f5f8f8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.text-center span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cat-img{
+    width: 60%;
+}
+.cat-text{
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.category-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.category-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}

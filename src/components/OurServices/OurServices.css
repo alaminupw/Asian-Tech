@@ -1,0 +1,179 @@
+.OurServices{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color:#f5f8f8 ;
+}
+
+
+/* start  our servicess bottom*/
+
+.service-item-left{
+    text-align: right;
+    margin-top: 30px;
+}
+
+/* h6 সবসময় visible */
+.service-item-left h6 {
+  position: relative;
+  top: 10px; /* নিচে নামানো হয়েছে যাতে icon এর center বরাবর আসে */
+  font-weight: 600;
+}
+
+
+.item-description {
+  font-size: 13px;
+  position: relative;
+  top: 10px; /* নিচে নামানো হয়েছে যাতে icon এর center বরাবর আসে */
+}
+
+/* service-items এর মধ্যে থাকা p ট্যাগটিকে প্রথমে হাইড করে রাখুন */
+.service-item-left .item-description {
+    opacity: 0;
+    transform: translateY(20px); /* টেক্সট ২০px নিচে থেকে শুরু হবে */
+    transition: opacity 0.5s ease, transform 0.7s ease; /* স্মুথ ট্রানজিশন */
+}
+
+/* যখন parent service-item-content এ হোভার করা হবে */
+.service-item-content:hover .item-description{
+    opacity: 1; /* p ট্যাগ ফেড-ইন হবে */
+    transform: translateY(-40px); /* p ট্যাগ স্লাইড আপ হবে তার আসল অবস্থানে */
+}
+
+
+/* service-meals এর মধ্যে থাকা h6 ট্যাগটিকে ০px নিচে থেকে বা নিজের অবস্থান থেকে ট্রানজিশন শুরু হবে */
+.service-item-left .item-title {
+    transform: translateY(0px); /* টেক্সট ০px নিচে থেকে ট্রানজিশন শুরু হবে */
+    transition: opacity 0.5s ease, transform 0.7s ease; /* স্মুথ ট্রানজিশন */
+}
+
+/* যখন parent service-item-content এ হোভার করা হবে */
+.service-item-content:hover .item-title {
+    opacity: 1; /*  h6 ট্যাগ ফেড-ইন হবে */
+    transform: translateY(-40px); /* h6 ট্যাগ স্লাইড আপ হবে তার আসল অবস্থান থেকে -40px উপরের দিকে যাবে  */
+}
+
+/* ✅ ছোট স্ক্রিনে (mobile view) সবসময় visible রাখবে */
+@media (max-width: 768px) {
+  .service-item-left .item-description {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-item-left .item-title {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+}
+
+.service-item-icon {
+    background: #f5b120;
+    display: inline-block;
+    font-size: 22px;
+    height: 93px;
+    margin-left: 15px;
+    width: 95px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 400;
+    padding: 30px 20px;
+}
+
+.service-item-icon:hover {
+  background: white;
+  border: 1px solid #f5b120;
+  color: #f5b120;
+}
+
+.service-item-icon:hover i {
+  color: #f5b120;
+}
+
+
+/* start  our servicess right bottom*/
+
+
+
+.service-item-right{
+    text-align: left;
+    margin-top: 30px;
+}
+
+/* h6 সবসময় visible */
+.service-item-right h6 {
+  position: relative;
+  top: 10px; /* নিচে নামানো হয়েছে যাতে icon এর center বরাবর আসে */
+  font-weight: 600;
+}
+.item-description-right {
+  font-size: 13px;
+  position: relative;
+  top: 10px; /* নিচে নামানো হয়েছে যাতে icon এর center বরাবর আসে */
+}
+
+/* service-meals এর মধ্যে থাকা p ট্যাগটিকে প্রথমে হাইড করে রাখুন */
+.service-item-right .item-description-right {
+    opacity: 0;
+    transform: translateY(20px); /* টেক্সট ২০px নিচে থেকে শুরু হবে */
+    transition: opacity 0.5s ease, transform 0.7s ease; /* স্মুথ ট্রানজিশন */
+}
+
+/* যখন parent service-item-content এ হোভার করা হবে */
+.service-item-content-right:hover .item-description-right{
+    opacity: 1; /* p ট্যাগ ফেড-ইন হবে */
+    transform: translateY(-40px); /* p ট্যাগ স্লাইড আপ হবে তার আসল অবস্থানে */
+}
+
+
+/* service-meals এর মধ্যে থাকা h6 ট্যাগটিকে ০px নিচে থেকে বা নিজের অবস্থান থেকে ট্রানজিশন শুরু হবে */
+.service-item-right .item-title-right {
+    transform: translateY(0px); /* টেক্সট ০px নিচে থেকে ট্রানজিশন শুরু হবে */
+    transition: opacity 0.5s ease, transform 0.7s ease; /* স্মুথ ট্রানজিশন */
+}
+
+/* যখন parent service-item-content এ হোভার করা হবে */
+.service-item-content-right:hover .item-title-right {
+    opacity: 1; /*  h6 ট্যাগ ফেড-ইন হবে */
+    transform: translateY(-40px); /* h6 ট্যাগ স্লাইড আপ হবে তার আসল অবস্থান থেকে -40px উপরের দিকে যাবে  */
+}
+
+/* ✅ ছোট স্ক্রিনে (mobile view) সবসময় visible রাখবে */
+@media (max-width: 768px) {
+  .service-item-right .item-description-right {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-item-right .item-title-right {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+}
+
+.service-item-icon-right {
+    background: #f5b120;
+    display: inline-block;
+    font-size: 22px;
+    height: 93px;
+    margin-right: 15px;
+    width: 95px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 400;
+    padding: 30px 20px;
+}
+
+.service-item-icon-right:hover {
+  background: white;
+  border: 1px solid #f5b120;
+  color: #f5b120;
+}
+
+.service-item-icon-right:hover i {
+  color: #f5b120;
+}

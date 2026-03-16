@@ -1,0 +1,28 @@
+.section-wrapper {
+  background-color: #f1f3f6;
+  min-height: 140px;          /* একটু বাড়ানো যেতে পারে */
+  max-width: 70%;            /* ← এটা ঠিক করা হয়েছে */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5rem;            /* p-5 এর বদলে responsive padding */
+}
+
+.icon-wrapper {
+  width: 70px;
+  height: 70px;
+  background-color: #dc3545;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0%;                  /* সেন্টারে আনা */
+  transform: translate(-50%, -50%);
+}
+
+/* মোবাইলে icon ছোট করতে চাইলে */
+@media (max-width: 576px) {
+  .icon-wrapper {
+    width: 55px;
+    height: 55px;
+    left: 5%;                  /* সেন্টারে আনা */
+  }
+}

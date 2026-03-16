@@ -1,0 +1,17 @@
+.electro-under{
+    width: 12%;
+}
+
+.Category-electronics{
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.Category-electronics:hover{
+    transform: scale(1.08);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    background-color: #F1E9E9;
+}
+.catagory-text{
+    font-size: 12px;
+    font-weight: 800;
+}
