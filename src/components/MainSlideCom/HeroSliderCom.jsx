@@ -9,12 +9,13 @@ import {
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
+import CardHeroSlides from "./CardHeroSlide";
+import "./HeroSliderCom.css";
 
 import "swiper/css";
 import "swiper/css/pagination";
 
-import CardHeroSlides from "./CardHeroSlide";
-import "./HeroSliderCom.css";
+
 
 // ইমপোর্ট পাথ তোমার প্রজেক্ট অনুযায়ী অ্যাডজাস্ট করো
 import { searchItems } from "../NavbarCom/SearchData.js";
