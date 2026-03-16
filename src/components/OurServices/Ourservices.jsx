@@ -1,6 +1,6 @@
 import React from 'react';
 import './OurServices.css';
-import OurServices1 from '../../assets/Images/OurServices1.webp';
+import OurServices1 from '../../assets/images/OurServices1.webp';
 import { Link } from 'react-router-dom';
 
 const OurServicesCom = () => {
