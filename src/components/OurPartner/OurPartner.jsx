@@ -12,15 +12,16 @@ import partner9 from '../../assets/images/partner9.png';
 import { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+// import required modules
+import { Pagination, Autoplay } from 'swiper/modules';
 
 // Import Swiper styles
 import './Styles.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-// import required modules
-import { Pagination, Autoplay } from 'swiper/modules';
-import 'swiper/css'
+
+
 
 const OurPartner = () => {
     return (
